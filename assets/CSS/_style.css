@@ -1,0 +1,617 @@
+@charset "UTF-8";
+/* ---------------------------------------------------
+ * base
+/* ---------------------------------------------------*/
+html {
+  font-size: 62.5%;
+  /*適宜変更お願いします*/
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: 10px;
+  font-family: "Noto Sans JP", YuGothic, "Yu Gothic", "ヒラギノ角ゴシック", "Hiragino Sans", sans-serif;
+  color: #000000;
+  line-height: 1.75;
+  width: 100%;
+  background-color: #fff;
+  font-weight: 400;
+  /*適宜変更お願いします*/
+  -webkit-font-feature-settings: "palt" 1;
+          font-feature-settings: "palt" 1;
+  /*自動カーニング*/
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  /*opacity: 0.8;*/
+  text-decoration: none;
+}
+
+p {
+  text-align: justify;
+  hanging-punctuation: allow-end;
+  /*文字のぶら下げ*/
+}
+
+#footer {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1em;
+  padding-bottom: 2em;
+  margin-bottom: 0px;
+  background-color: #30b2b8;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------
+ * common（PC　min-width: 1023px）
+/* ---------------------------------------------------*/
+.wrap {
+  width: 2000px;
+  max-width: 100%;
+}
+
+.container {
+  position: relative;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*背景画像を指定*/
+section#section-01 {
+  background: url(../img_pc/section_1.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-02 {
+  background: url(../img_pc/section_2.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-03 {
+  background: url(../img_pc/section_3.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-04 {
+  background: url(../img_pc/section_4.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-05 {
+  background: url(../img_pc/section_5.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-06 {
+  background: url(../img_pc/section_6.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-07 {
+  background: url(../img_pc/section_7.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-08 {
+  background: url(../img_pc/section_8.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-09 {
+  background: url(../img_pc/section_9.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-10 {
+  background: url(../img_pc/section_10.webp) no-repeat top center;
+  height: px;
+}
+
+/*背景画像を指定*/
+section#section-11 {
+  background: url(../img_pc/section_11.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-12 {
+  background: url(../img_pc/section_12.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-13 {
+  background: url(../img_pc/section_13.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-14 {
+  background: url(../img_pc/section_14.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-15 {
+  background: url(../img_pc/section_15.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-16 {
+  background: url(../img_pc/section_16.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-17 {
+  background: url(../img_pc/section_17.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-18 {
+  background: url(../img_pc/section_18.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-19 {
+  background: url(../img_pc/section_19.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-20 {
+  background: url(../img_pc/section_20.webp) no-repeat top center;
+  height: px;
+}
+
+/*背景画像を指定*/
+section#section-21 {
+  background: url(../img_pc/section_21.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-22 {
+  background: url(../img_pc/section_22.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-23 {
+  background: url(../img_pc/section_23.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-24 {
+  background: url(../img_pc/section_24.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-25 {
+  background: url(../img_pc/section_25.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-26 {
+  background: url(../img_pc/section_26.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-27 {
+  background: url(../img_pc/section_27.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-28 {
+  background: url(../img_pc/section_28.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-29 {
+  background: url(../img_pc/section_29.webp) no-repeat top center;
+  height: px;
+}
+
+/*背景画像を指定*/
+section#section-30 {
+  background: url(../img_pc/section_30.webp) no-repeat top center;
+  height: px;
+}
+
+/*背景画像を指定*/
+section#section-31 {
+  background: url(../img_pc/section_31.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-32 {
+  background: url(../img_pc/section_32.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-33_1 {
+  background: url(../img_pc/section_33_1.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-33_2 {
+  background: url(../img_pc/section_33_2.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-33_3 {
+  background: url(../img_pc/section_33_3.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-33_4 {
+  background: url(../img_pc/section_33_4.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-34 {
+  background: url(../img_pc/section_34.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-35 {
+  background: url(../img_pc/section_35.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-36 {
+  background: url(../img_pc/section_36.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-37 {
+  background: url(../img_pc/section_37.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-38 {
+  background: url(../img_pc/section_38.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-39 {
+  background: url(../img_pc/section_39.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-40 {
+  background: url(../img_pc/section_40.webp) no-repeat top center;
+  height: px;
+}
+
+/*背景画像を指定*/
+section#section-41_1 {
+  background: url(../img_pc/section_41_1.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-41_2 {
+  background: url(../img_pc/section_41_2.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-41_3 {
+  background: url(../img_pc/section_41_3.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-41_4 {
+  background: url(../img_pc/section_41_4.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-42 {
+  background: url(../img_pc/section_42.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-43 {
+  background: url(../img_pc/section_43.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-44 {
+  background: url(../img_pc/section_44_1.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-45 {
+  background: url(../img_pc/section_44_2.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-46 {
+  background: url(../img_pc/section_44_3.webp) no-repeat top center;
+  height: px;
+}
+
+section#section-47 {
+  background: url(../img_pc/section_44_4.webp) no-repeat top center;
+  height: px;
+}
+
+.-pc {
+  display: block;
+}
+
+.-sp {
+  display: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  /*親要素のbox-sizingを継承*/
+}
+
+.btn_area {
+  position: absolute;
+  z-index: 999;
+  top: 0%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 70%;
+  -webkit-animation: poyon 2s infinite;
+          animation: poyon 2s infinite;
+}
+
+
+
+@-webkit-keyframes poyon {
+  0% {
+    -webkit-transform: scale(1, 1) translate(0%, 0%);
+            transform: scale(1, 1) translate(0%, 0%);
+  }
+  15% {
+    -webkit-transform: scale(0.95, 0.95) translate(0%, 0%);
+            transform: scale(0.95, 0.95) translate(0%, 0%);
+  }
+  30% {
+    -webkit-transform: scale(1.05, 1.05) translate(0%, 0%);
+            transform: scale(1.05, 1.05) translate(0%, 0%);
+  }
+  50% {
+    -webkit-transform: scale(0.95, 0.95) translate(0%, 0%);
+            transform: scale(0.95, 0.95) translate(0%, 0%);
+  }
+  70% {
+    -webkit-transform: scale(1.05, 1.05) translate(0%, 0%);
+            transform: scale(1.05, 1.05) translate(0%, 0%);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translate(0%, 0%);
+            transform: scale(1, 1) translate(0%, 0%);
+  }
+}
+
+@keyframes poyon {
+  0% {
+    -webkit-transform: scale(1, 1) translate(0%, 0%);
+            transform: scale(1, 1) translate(0%, 0%);
+  }
+  15% {
+    -webkit-transform: scale(0.95, 0.95) translate(0%, 0%);
+            transform: scale(0.95, 0.95) translate(0%, 0%);
+  }
+  30% {
+    -webkit-transform: scale(1.05, 1.05) translate(0%, 0%);
+            transform: scale(1.05, 1.05) translate(0%, 0%);
+  }
+  50% {
+    -webkit-transform: scale(0.95, 0.95) translate(0%, 0%);
+            transform: scale(0.95, 0.95) translate(0%, 0%);
+  }
+  70% {
+    -webkit-transform: scale(1.05, 1.05) translate(0%, 0%);
+            transform: scale(1.05, 1.05) translate(0%, 0%);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translate(0%, 0%);
+            transform: scale(1, 1) translate(0%, 0%);
+  }
+}
+.btn_float {
+  position: fixed;
+  z-index: 999;
+  width: 25vw;
+  bottom: 2%;
+  right: 2%;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.video_area {
+  position: absolute;
+  z-index: 999;
+  top: 26.5%;
+  right: 0px;
+  left: 17px;
+  margin: auto;
+  width: 54.5%;
+  height: auto;
+}
+
+/*追従cta*/
+.btn_float {
+  position: fixed;
+  z-index: 999;
+  width: 25%;
+  bottom: 20px;
+  right: 0%;
+  left: 73%;
+}
+
+.side {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+}
+
+.side a img:hover {
+  opacity: 1;
+}
+
+/*-----------------タブレットサイズ-----------------------
+@media (min-width: 600px) and (max-width: 1023px) {
+    body {
+        font-size: 3.2rem;
+    }
+    .-pc {
+        display: none;
+    }
+    .-sp {
+        display: block;
+    }
+    .wrap {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+----------------------------------------*/
+/*-----------------スマホサイズ-----------------------*/
+@media screen and (max-width: 600px) {
+  .-pc {
+    display: none;
+  }
+  .-sp {
+    display: block;
+  }
+  body {
+    font-size: 4.2vw;
+  }
+  .wrap {
+    max-width: 100%;
+    width: 100%;
+  }
+  #footer {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 1em;
+    margin-bottom: 0px;
+  }
+  #footer a {
+    color: #ffffff;
+  }
+  .btn_area {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 38%;
+    -webkit-animation: poyon 2s infinite;
+    animation: poyon 2s infinite;
+  }
+  /*追従cta*/
+  .btn_float {
+    position: fixed;
+    z-index: 999;
+    width: 90%;
+    bottom: 0;
+    right: 0%;
+    left: 5.5%;
+  }
+  .side {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 9999999;
+  }
+  .side a img:hover {
+    opacity: 1;
+  }
+  /*動画*/
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+  .video_area {
+    position: absolute;
+    z-index: 999;
+    top: 2.5%;
+    ight: 0;
+    left: 35px;
+    margin: auto;
+    width: 83%;
+    height: auto;
+  }
+  section#section-01,
+  section#section-02,
+  section#section-03,
+  section#section-04,
+  section#section-05,
+  section#section-06,
+  section#section-07,
+  section#section-08,
+  section#section-09,
+  section#section-10,
+  section#section-11,
+  section#section-12,
+  section#section-13,
+  section#section-14,
+  section#section-15,
+  section#section-16,
+  section#section-17,
+  section#section-18,
+  section#section-19,
+  section#section-20,
+  section#section-21,
+  section#section-22,
+  section#section-23,
+  section#section-24,
+  section#section-25,
+  section#section-26,
+  section#section-27,
+  section#section-28,
+  section#section-29,
+  section#section-30,
+  section#section-31,
+  section#section-32,
+  section#section-33_1,
+  section#section-33_2,
+  section#section-33_3,
+  section#section-33_4,
+  section#section-34,
+  section#section-35,
+  section#section-36,
+  section#section-37,
+  section#section-38,
+  section#section-39,
+  section#section-40,
+  section#section-41_1,
+  section#section-41_2,
+  section#section-41_3,
+  section#section-41_4,
+  section#section-42,
+  section#section-43,
+  section#section-44_1,
+  section#section-44_2,
+  section#section-44_3,
+  section#section-44_4 {
+    background: none !important;
+  }
+}
+/*----------------------------------------*/
