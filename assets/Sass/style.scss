@@ -50,14 +50,15 @@ p {
   text-align: center;
   font-size: 1.5em;
   padding: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   margin-bottom: 0px;
-  background-color: #30b2b8;
+  background-color:  #696155;;
   color: #ffffff;
 }
 
 #footer a {
   color: #ffffff;
+    margin: 30px;
 }
 
 
@@ -401,6 +402,13 @@ position: absolute;
     width: 39%;
     -webkit-animation: poyon 2s infinite;
     animation: poyon 2s infinite;
+
+
+}
+
+.section-11.btn_area {
+  top: 54%;
+
 }
 
 
@@ -449,7 +457,7 @@ iframe {
     z-index: 999;
     top: 26.5%;
     right: 0px;
-    left: 17px;
+    left: 0px;
     margin: auto;
     width: 54.5%;
     height: auto;
@@ -542,7 +550,7 @@ iframe {
   .btn_area {
     position: absolute;
     z-index: 999;
-    top: 0%;
+    top: 50%;
     right: 0;
     left: 0;
     margin: auto;
@@ -583,14 +591,23 @@ iframe {
   .video_area {
     position: absolute;
     z-index: 999;
-    top: 2.5%;
-    ight: 0;
-    left: 35px;
+    top: 23%;
+    right: 0;
+    left: 0px;
     margin: auto;
-    width: 83%;
+    width: 90%;
     height: auto;
 
   }
+
+    .section-01.btn_area {
+        top: 75%;
+        left: 0%;
+        width: 90%;
+
+
+    }
+
 
 
 
