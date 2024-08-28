@@ -57,11 +57,17 @@ section {
   margin-bottom: 0px;
   background-color: #696155;
   color: #ffffff;
+  margin-top: -5px;
+  height: 100px;
 }
 
 #footer a {
   color: #ffffff;
-  margin: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+#footer a:first-child {
+  margin-right: 66px;
 }
 
 /* ---------------------------------------------------
@@ -536,12 +542,19 @@ iframe {
   }
   #footer {
     text-align: center;
-    font-size: 0.8em;
-    padding: 1em;
+    font-size: 14px;
+    padding: 16px 25px 10px;
     margin-bottom: 0px;
+    margin-top: -12px;
+    height: 78px;
   }
   #footer a {
     color: #ffffff;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  #footer a:first-child {
+    margin-right: 32px;
   }
   .btn_area {
     position: absolute;
