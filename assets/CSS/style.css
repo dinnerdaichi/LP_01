@@ -45,6 +45,10 @@ p {
   /*文字のぶら下げ*/
 }
 
+section {
+  margin-top: -5px;
+}
+
 #footer {
   text-align: center;
   font-size: 1.5em;
@@ -642,6 +646,9 @@ iframe {
   section#section-44_3,
   section#section-44_4 {
     background: none !important;
+  }
+  section {
+    margin-top: -12px;
   }
 }
 /*----------------------------------------*/
