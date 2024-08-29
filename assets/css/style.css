@@ -389,7 +389,7 @@ section#section-47 {
 .section-01.btn_area {
   position: absolute;
   z-index: 999;
-  top: 72%;
+  top: 74%;
   right: 0;
   left: -26%;
   margin: auto;
@@ -504,10 +504,14 @@ iframe {
   opacity: 0;
   -webkit-transition: opacity 0.5s ease-in-out;
   transition: opacity 0.5s ease-in-out;
+  position: fixed;
+  z-index: 999999;
 }
 
 .pagetop.show {
   opacity: 1;
+  position: fixed;
+  z-index: 999999;
 }
 
 /*-----------------タブレットサイズ-----------------------
