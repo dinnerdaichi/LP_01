@@ -518,6 +518,26 @@ iframe {
     z-index: 999999;
 }
 
+.caution{
+  text-align: right;
+  // font-size: (0.625rem, 2vw + 1rem, 0.625rem);
+  position: absolute;
+  right: 23%;
+  bottom: 5%;
+  font-size: 8px;
+}
+
+#section-06 .caution{
+  bottom: 3%;
+
+}
+
+#section-05 .caution{
+  bottom: 2.5%;
+
+}
+
+
 
 /*-----------------タブレットサイズ-----------------------
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -705,6 +725,35 @@ iframe {
   section {
     margin-top: -5px;
   }
+
+
+.caution {
+  text-align: right;
+  // font-size: (0.625rem, 2vw + 1rem, 0.625rem);
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  font-size: 10px;
+}
+
+#section-08 .caution {
+  bottom: 3.5%;
+
+}
+#section-07 .caution {
+  bottom: 3%;
+
+}
+
+#section-06 .caution {
+  bottom: 2%;
+
+}
+
+#section-05 .caution {
+  bottom: 1.5%;
+
+}
 
 }
 
